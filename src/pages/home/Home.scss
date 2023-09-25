@@ -4,7 +4,7 @@
 
 
 .home{
-    // border: 2px solid red;
+    
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,19 @@
             font-weight: 700;
         }
         
+    }
+    h1{
+        font-weight: 600;
+       
+
+    }
+    h2{
+        font-size: 3rem;
+        opacity: .8;
+        font-weight: 600;
+    }
+    h3{
+        font-size: 2rem;
     }
     
 }

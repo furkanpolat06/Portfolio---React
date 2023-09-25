@@ -4,9 +4,9 @@ const Home = () => {
   return (
     <div className="home-bgImg-container">
       <main className="home">
-        <h2>Hi! My Name Is</h2>
-        <h1 className="home__name">
-          Furkan <span className="home__name--last">Emin</span> POLAT
+        <h3>Hi! My name is</h3>
+        <h1 className="home__name"> <span className="home__name--last">Furkan </span> 
+          Emin <span className="home__name--last">Polat</span> 
         </h1>
         <h2>Frontend Web Developer</h2>
       </main>
