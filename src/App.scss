@@ -9,8 +9,8 @@ body{
     line-height: 1;
     color: $text-color;
     height: 100%;
-    background-color: $primary-color;
-    @include bgImg(100vh, $main-bgImg-path);
+    background-color:#031531;
+   
 }
 
 a{
@@ -42,7 +42,7 @@ h1,h2,h3{
       }
     }
     .about-bgImg-container{
-      margin-top: 1vh;
+      margin-top: 20vh;
     }
     .projects__item {
       width: 100%;
@@ -74,7 +74,7 @@ h1,h2,h3{
 
     }
     .about-bgImg-container{
-      margin-top: 30vh;
+      margin-top: 15vh;
     }
     .about__bio-image{
       p{
@@ -112,7 +112,9 @@ h1,h2,h3{
       width: 100%;
     }
   }
-  
+  .project-bgImg-container{
+    margin-top: 20vh;
+  }
   @include media-lg {
     .nav {
       &__item {

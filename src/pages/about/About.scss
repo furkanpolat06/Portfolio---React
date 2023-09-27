@@ -1,15 +1,16 @@
 @import '../../scss/variables';
-@import '../../scss/mixins';
+// @import '../../scss/mixins';
 
 .about-bgImg-container{
     display: flex;
     flex-direction: column;
-    .about__bio-image{
+    .about__bio-image{ 
+        z-index: -1;
         text-align: center;
         h2{
+            margin-top: 1rem;
             font-size: 3rem;
-            color: $secondary-color;  
-        }
+            color: $secondary-color;          }
 
         p{
             font-size: 1.2rem;
@@ -23,6 +24,7 @@
 .about{
     background-color: $primary-color;
     height: 90vh;
+   
 
     &__container{
         // border: 2px solid red;
