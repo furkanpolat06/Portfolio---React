@@ -8,16 +8,16 @@ const Contact = () => {
         <div className="contact__list">
           <div className="contact__item">
             <i className="fas fa-envelope"></i> Email
-            <div className="text-secondary">wednesday@nevermoreacademy.edu</div>
+            <div className="text-secondary">emnplt_06@outlook.com</div>
           </div>
           <div className="contact__item">
             <i className="fas fa-mobile-alt"></i> Phone
-            <div className="text-secondary">+40 (571) 360-1234</div>
+            <div className="text-secondary">+90 555 555 55 55</div>
           </div>
           <div className="contact__item">
             <i className="fas fa-map-marker-alt"></i> Address
             <div className="text-secondary">
-              Strada Zamorei 1, Bușteni 105500, Romania
+              Kaletepe Mahallesi 875. Sokak Yenimahalle/Ankara
             </div>
           </div>
         </div>
