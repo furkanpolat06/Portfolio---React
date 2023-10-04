@@ -1,5 +1,4 @@
-
-import React from 'react'
+import React from "react";
 import "./About.scss";
 
 const About = () => {
@@ -9,16 +8,20 @@ const About = () => {
         <div className="about__bio-image">
           <h2>BIO</h2>
           <p>
-            Wednesday Addams is a fictional character from the Addams Family
-            multimedia franchise created by American cartoonist Charles Addams.
-            She is typically portrayed as a morbid and emotionally reserved
-            child that is fascinated by the macabre, often identified by her
-            pale skin and black pigtails. Wednesday has been portrayed by
-            several actresses in various films and television series, including
-            Lisa Loring in the television series The Addams Family (1964),
-            Christina Ricci in the feature films The Addams Family (1991) and
-            Addams Family Values (1993), and Jenna Ortega in the streaming
-            television series Wednesday (2022).
+            As a frontend developer, nearly a year of focused education and a
+            strong commitment to self-improvement through hands-on projects have
+            been integral to my growth. During this time, active participation
+            in personal and collaborative projects has been instrumental in
+            skill enhancement in web development. Passionate about code
+            composition and the creation of responsive designs, my aptitude for
+            swiftly grasping new concepts and technologies is well-acknowledged.
+            This proficiency enables the development of innovative solutions for
+            intricate problems. Eager to continually acquire knowledge, various
+            technologies, tools, and libraries are consistently explored.
+            Primary interests encompass frontend and web development, where
+            skills in HTML, CSS, JavaScript, and React have been diligently
+            refined. The pursuit of knowledge excites me, and a lifelong
+            learning mindset is embraced.
           </p>
         </div>
       </div>
@@ -59,6 +62,6 @@ const About = () => {
       </main>
     </>
   );
-}
+};
 
-export default About
+export default About;

@@ -22,7 +22,7 @@
 }
 
 .about{
-    background-color: $primary-color;
+    
     height: 90vh;
    
 
@@ -34,7 +34,7 @@
 
     .about__job{
         margin: 1rem;
-        background-color: lighten($primary-color, 10%);
+       background-color:rgba(255, 255, 255, 0.178);
         padding: 1rem;
         border-bottom: 5px solid $secondary-color;
 

@@ -7,7 +7,7 @@ const Projects = () => {
     <>
       <div className="project-bgImg-container">
         <div className="projects__bio-image">
-          <h1>My Projects</h1>
+          <h1 className="text-4xl font-bold text-purple-600 ">My Projects</h1>
         </div>
       </div>
       <main className="projects">

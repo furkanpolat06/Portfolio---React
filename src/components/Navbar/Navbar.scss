@@ -39,8 +39,14 @@
     color: #ffffff; 
   }
 
-  
-  
-  
-  
-  
+ 
+#nav-color:hover{
+color: #be6adf !important;
+  }
+  #navbar-bcg{
+background-color: rgba(67, 3, 80, 0.459);
+// position: relative;
+position: fixed;
+top: 0;
+z-index: 10;
+  }
