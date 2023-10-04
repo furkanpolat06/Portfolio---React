@@ -23,7 +23,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "Resume",
+      link: "Experience",
     },
     {
       id: 5,
@@ -32,7 +32,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div id="navbar-bcg" className="flex justify-center items-center w-full h-20 px-4 text-indigo-600  fixed nav">
+    <div id="navbar-bcg" className=" flex justify-center items-center w-full h-20 px-4 text-indigo-600  fixed nav">
       
 
       <ul className="hidden md:flex">
