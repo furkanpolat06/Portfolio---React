@@ -37,8 +37,8 @@
     }
 }
 
-.swiperSlide>img{
-    max-width: 200px;
+.swiperSlide img{
+    max-width: 250px;
 }
 @include media-xl {
     .projects__item {

@@ -7,7 +7,7 @@
         @include transition(1s);
 
         &:hover{
-            color: $secondary-color;
+            color: rgba(157, 64, 175, 0.788);
         }
     }
 }

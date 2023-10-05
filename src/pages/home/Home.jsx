@@ -14,10 +14,12 @@ import javascriptPng from "../../assets/img/javascript.png";
 import reactPng from "../../assets/img/react.png";
 import tailwindPng from "../../assets/img/tailwind.png";
 import muiPng from "../../assets/img/mui.png";
+import rateSvg from "../../assets/img/meter1.svg";
 
 
 
 function Home() {
+  let obje=["HTML", "CSS", "JavaScript", "TypeScript", "NextJS", "React", "Bootstrap", "Material UI", "Tailwind"]
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -53,20 +55,27 @@ function Home() {
       </Container>
       
       <Swiper
-      className="container bg-opacity-25 bg-purple-950"
+      className="container "
       spaceBetween={50}
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide className="swiperSlide" ><img className="bg-purple-500 bg-opacity-10" src={htmlPng} alt="" /></SwiperSlide>
-      <SwiperSlide  className="swiperSlide" ><img  className="bg-purple-500 bg-opacity-10" src={cssPng} alt="" /></SwiperSlide>
-      <SwiperSlide  className="swiperSlide" ><img  className="bg-purple-500 bg-opacity-10" src={javascriptPng} alt="" /></SwiperSlide>
-      <SwiperSlide  className="swiperSlide" ><img  className="bg-purple-500 bg-opacity-10" src={reactPng} alt="" /></SwiperSlide>
-      <SwiperSlide  className="swiperSlide"><img  className="bg-purple-500 bg-opacity-10" src={tailwindPng} alt="" /></SwiperSlide>
-      <SwiperSlide  className="swiperSlide" ><img  className="" src={muiPng} alt="" /></SwiperSlide>
+     
+      {
+        obje.map((item, index) => (
+    <SwiperSlide className="swiperSlide" >
+    <div className="" key={index}>
+      <img src={rateSvg} alt="" />
+      <div className="mt-4 text-2xl font-bold" >{item}</div>
+    </div>
+       </SwiperSlide>
+  ))
+}
+        
+        
+        
   
-      ...
     </Swiper>
     </section>
   );
