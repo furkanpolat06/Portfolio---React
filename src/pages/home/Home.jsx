@@ -3,12 +3,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import homepng from "../../assets/img/home-main.svg";
 import Type from "./Type";
 import "./Home.scss"
-import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "../../App.scss";
-import { Navigation } from "swiper";
-import { Pagination } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import htmlPng from "../../assets/img/html.png";
+import cssPng from "../../assets/img/css.png";
+import javascriptPng from "../../assets/img/javascript.png";
+import reactPng from "../../assets/img/react.png";
+import tailwindPng from "../../assets/img/tailwind.png";
+import muiPng from "../../assets/img/mui.png";
+
+
 
 function Home() {
   return (
@@ -40,10 +47,27 @@ function Home() {
 
           
           </Row>
-          <p align="left"><img src="https://github-readme-stats.vercel.app/api?username=MuratGumus&theme=chartreuse-dark&show_icons=true" alt="my github stats" width="49%"/>&nbsp;</p>
+         
 
         </Container>
       </Container>
+      
+      <Swiper
+      className="container bg-opacity-25 bg-purple-950"
+      spaceBetween={50}
+      slidesPerView={3}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide className="swiperSlide" ><img className="bg-purple-500 bg-opacity-10" src={htmlPng} alt="" /></SwiperSlide>
+      <SwiperSlide  className="swiperSlide" ><img  className="bg-purple-500 bg-opacity-10" src={cssPng} alt="" /></SwiperSlide>
+      <SwiperSlide  className="swiperSlide" ><img  className="bg-purple-500 bg-opacity-10" src={javascriptPng} alt="" /></SwiperSlide>
+      <SwiperSlide  className="swiperSlide" ><img  className="bg-purple-500 bg-opacity-10" src={reactPng} alt="" /></SwiperSlide>
+      <SwiperSlide  className="swiperSlide"><img  className="bg-purple-500 bg-opacity-10" src={tailwindPng} alt="" /></SwiperSlide>
+      <SwiperSlide  className="swiperSlide" ><img  className="" src={muiPng} alt="" /></SwiperSlide>
+  
+      ...
+    </Swiper>
     </section>
   );
 }
