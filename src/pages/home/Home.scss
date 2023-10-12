@@ -1,7 +1,9 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
-
+// body{
+//     padding: 1rem 2rem;
+// }
 
 .home{
     
@@ -39,6 +41,14 @@
 
 .swiperSlide img{
     max-width: 250px;
+    
+    
+}
+.swiper-scss{
+    margin-bottom: 12rem;
+
+ 
+
 }
 @include media-xl {
     .projects__item {

@@ -55,28 +55,26 @@ function Home() {
       </Container>
       
       <Swiper
-      className="container "
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-     
-      {
-        obje.map((item, index) => (
-    <SwiperSlide className="swiperSlide" >
-    <div className="" key={index}>
-      <img src={rateSvg} alt="" />
-      <div className="mt-4 text-2xl font-bold" >{item}</div>
-    </div>
-       </SwiperSlide>
-  ))
-}
-        
-        
-        
-  
-    </Swiper>
+  className="container swiper-scss"
+  spaceBetween={50}
+  slidesPerView={3}
+  loop={true} 
+  autoplay={{
+    delay: 100, 
+    disableOnInteraction: false,
+  }}
+>
+  {obje.map((item, index) => (
+    <SwiperSlide className="swiperSlide" key={index}>
+      <div className="">
+        <img src={rateSvg} alt="" />
+        <div className="mt-4 text-2xl font-bold">{item}</div>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
+
     </section>
   );
 }

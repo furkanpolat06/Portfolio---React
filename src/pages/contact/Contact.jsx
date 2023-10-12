@@ -10,10 +10,10 @@ function handleSubmit(e) {
 
 const Contact = () => {
   return (
-    <div name="contact" className="contact w-full h-screen  p-4 text-white">
+    <div name="contact" className="contact text-white">
       <div className="contact-bgImg-container">
         <main className="contact">
-          <h2>Contact Me ...</h2>
+          <h3 className="text-4xl font-bold ">Contact Details</h3>
           <div className="contact__list">
             <div className="contact__item">
               <i className="fas fa-envelope"></i> Email
@@ -32,11 +32,11 @@ const Contact = () => {
           </div>
         </main>
       </div>
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col p-4 justify-center m-4 ">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Contact
-          </p>
+          <h3 className="text-4xl font-bold ">
+            Contact Forms
+          </h3>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
 

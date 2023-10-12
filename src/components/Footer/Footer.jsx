@@ -6,6 +6,8 @@ const Footer = () => {
   return (
     <>
       <footer className={pathname==="/" ? "horizontal" : pathname ==="/contacts" ? "middle" : "vertical"}>
+        <div className='icon-copy'>
+
         <div className="social-icons">
           <a href="#twitter" rel="noopener noreferrer" target='true'>
             <i className="fab fa-twitter fa-2x"></i>
@@ -21,6 +23,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="copyright">&copy; Copyright 2023</div>
+        </div>
       </footer>
     </>
   );

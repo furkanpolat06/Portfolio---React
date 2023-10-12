@@ -7,7 +7,7 @@
         @include transition(1s);
 
         &:hover{
-            color: rgba(157, 64, 175, 0.788);
+            color: rgba(152, 29, 177, 0.788);
         }
     }
 }
@@ -16,41 +16,72 @@ footer.horizontal{
     // border: 2px solid red;
     height: 10vh;
     display:flex ;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
-    padding: 1rem;
+
     @extend .link-style;
 
 }
 
-footer.vertical{
-    // border: 2px solid red;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    // padding: 2rem;
-    // background-color: $primary-color;
-    .social-icons{
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        bottom: 1rem;
-        @extend .link-style;
-    }
-    .copyright{
-        position: fixed;
-        bottom: 1rem;
-        right: 3rem;
-        // transform: rotate(90deg) translate(-3rem, -5rem);
-        writing-mode: vertical-lr;
-    }
+.icon-copy{
+
+  
+    padding: 1.5rem;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  background-color: rgba(95, 1, 114, 0.397);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+
 }
+
+.social-icons{
+    display: flex;
+    gap: .5rem;
+}
+.social-icons:hover{
+//   background-color: $secondary-color; 
+ color: $secondary-color; 
+}
+// footer.vertical{
+//     // border: 2px solid red;
+//     display: flex;
+//     justify-content: center;
+//     // align-items: flex-end;
+//     // padding: 2rem;
+//     // background-color: $primary-color;
+//     .social-icons{
+//         display: flex;
+//         flex-direction: row;
+//         position: relative;
+//         bottom: 4rem;
+//         left: 5rem;
+//         @extend .link-style;
+//     }
+//     .copyright{
+//         position: relative;
+//         right: 4rem;
+    
+    
+//         display: flex;
+
+//         flex-direction: row;
+
+//         // transform: rotate(90deg) translate(-3rem, -5rem);
+        
+//     }
+// }
 
 footer.middle{
     // border: 2px solid red;
     height: 20vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding: 1rem;
