@@ -10,20 +10,20 @@ function handleSubmit(e) {
 
 const Contact = () => {
   return (
-    <div name="contact" className="contact text-white">
-      <div className="contact-bgImg-container">
+    <div name="contact" className="contacts text-white">
+      <div className="contacts-bgImg-container">
         <main className="contact">
-          <h3 className="text-4xl font-bold ">Contact Details</h3>
-          <div className="contact__list">
-            <div className="contact__item">
+          <h3 className="text-6xl m-8 font-bold ">Contact Details</h3>
+          <div className="contacts__list">
+            <div className="contacts__item">
               <i className="fas fa-envelope"></i> Email
               <div className="text-secondary">emnplt_06@outlook.com</div>
             </div>
-            <div className="contact__item">
+            <div className="contacts__item">
               <i className="fas fa-mobile-alt"></i> Phone
               <div className="text-secondary">+90 555 555 55 55</div>
             </div>
-            <div className="contact__item">
+            <div className="contacts__item">
               <i className="fas fa-map-marker-alt"></i> Address
               <div className="text-secondary">
                 Kaletepe Mahallesi 875. Sokak Yenimahalle/Ankara
@@ -33,8 +33,8 @@ const Contact = () => {
         </main>
       </div>
       <div className="flex flex-col p-4 justify-center m-4 ">
-        <div className="pb-8">
-          <h3 className="text-4xl font-bold ">
+        <div className="pb-2">
+          <h3 className="text-4xl m-2  ">
             Contact Forms
           </h3>
           <p className="py-6">Submit the form below to get in touch with me</p>
@@ -72,7 +72,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+              className="text-white bg-gradient-to-b from-purple-500 to-white-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-105 duration-300"
             >
               Send Message
             </button>

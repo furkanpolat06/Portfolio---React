@@ -23,7 +23,7 @@
     }
     &__item{
         cursor: pointer;
-        border-bottom: 5px solid $secondary-color;
+        border-bottom: 5px solid #b831ee;
         position: relative;
         img{
             width: 100%;
@@ -35,7 +35,7 @@
             content: '';
             width: 100%;
             height: 10%;
-            background-color: $secondary-color;
+            background-color: #be6adf;
             position: absolute;
             left: 0;
             opacity: 0;

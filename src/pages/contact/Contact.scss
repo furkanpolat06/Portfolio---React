@@ -6,39 +6,34 @@
 
 }
 
-.contact{
+.contacts{
     // border:2px solid red;
     height: 100vh;
-    margin-top: 25vh !important;
-    margin-bottom: -5vh !important;
+    margin-top: 17vh !important;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     gap: 1rem;
 
-    h2{
-        font-size: 4rem !important;
-        margin-bottom: 4rem !important;
-        
-    }
 
     &__list{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         font-size: 1.8rem !important;
-        gap: 3.5rem 5rem ;
+        gap: 2rem 2rem ;
        
         
         justify-content: center;
         align-items: center;
     }
     .text-secondary{
-        color: $secondary-color;
+        color:#be6adf;
     }
     &__item{
-        line-height: 3rem;
+        line-height: 2.5rem;
 
     }
 }
