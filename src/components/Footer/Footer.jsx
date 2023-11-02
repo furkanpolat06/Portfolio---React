@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer className={pathname==="/" ? "horizontal" : pathname ==="/contacts" ? "middle" : "vertical"}>
-        <div className='icon-copy'>
+        <div className='icon-copy mt-10'>
 
         <div className="social-icons">
           <a href="#twitter" rel="noopener noreferrer" target='true'>

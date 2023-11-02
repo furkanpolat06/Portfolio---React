@@ -51,6 +51,9 @@
 
 }
 @include media-xl {
+    p{
+        margin: 30rem;
+    }
     .projects__item {
       width: 33%;
     }

@@ -78,21 +78,12 @@ const About = () => {
         <div className="about__bio-image">
           <h2>BIO</h2>
           <p>
-            As a frontend developer, nearly a year of focused education and a
-            strong commitment to self-improvement through hands-on projects have
-            been integral to my growth. During this time, active participation
-            in personal and collaborative projects has been instrumental in
-            skill enhancement in web development. Passionate about code
-            composition and the creation of responsive designs, my aptitude for
-            swiftly grasping new concepts and technologies is well-acknowledged.
-            This proficiency enables the development of innovative solutions for
-            intricate problems. Eager to continually acquire knowledge, various
-            technologies, tools, and libraries are consistently explored.
-            Primary interests encompass frontend and web development, where
-            skills in HTML, CSS, JavaScript, and React have been diligently
-            refined. The pursuit of knowledge excites me, and a lifelong
-            learning mindset is embraced.
+          Passionate about code composition and the creation of responsive designs, my aptitude for swiftly grasping new concepts and technologies is well-acknowledged. This proficiency enables the development of innovative solutions for intricate problems. Eager to continually acquire knowledge, various technologies, tools, and libraries are consistently explored.
+ 
+        
           </p>
+          <hr />
+          <p>HTML5 | CSS3 | JavaScript | React.js | Redux | Next.js | Typescript | Python |  SASS | Material.UI | Tailwind | Styled-Components | Cypress | Linux | JQuery | Git | GitHub | Agile | Jira | SDLC | OOP | Figma | Slack</p>
         </div>
       </div>
       <div name="experience">
@@ -107,13 +98,13 @@ const About = () => {
             </p>
           </div>
 
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center py-12 px-12 sm:px-0">
+          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-10 text-center py-12 px-12 sm:px-0">
             {techs.map(({ id, src, title, style }) => (
               <div
                 key={id}
                 className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
               >
-                <img src={src} alt="" className="w-20 mx-auto" />
+                <img src={src} alt="" className="w-24 mt-2 mx-auto" />
                 <p className="mt-4">{title}</p>
               </div>
             ))}

@@ -8,12 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "../../App.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import htmlPng from "../../assets/img/html.png";
-import cssPng from "../../assets/img/css.png";
-import javascriptPng from "../../assets/img/javascript.png";
-import reactPng from "../../assets/img/react.png";
-import tailwindPng from "../../assets/img/tailwind.png";
-import muiPng from "../../assets/img/mui.png";
+
 import rateSvg from "../../assets/img/meter1.svg";
 
 
@@ -53,6 +48,9 @@ function Home() {
 
         </Container>
       </Container>
+      <p className="m-10  mb-20 text-2xl  ">As a frontend developer, nearly a year of focused education and a strong commitment to self-improvement through hands-on projects have been integral to my growth. During this time, active participation in personal and collaborative projects has been instrumental in skill enhancement in web development.
+
+</p>
       
       <Swiper
   className="container swiper-scss"
@@ -68,7 +66,7 @@ function Home() {
     <SwiperSlide className="swiperSlide" key={index}>
       <div className="">
         <img src={rateSvg} alt="" />
-        <div className="mt-4 text-2xl font-bold">{item}</div>
+        <div className="mt-4 text-xl font-bold">{item}</div>
       </div>
     </SwiperSlide>
   ))}
