@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "../../App.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import homephoto from "../../assets/img/javascript.png"
 import rateSvg from "../../assets/img/meter1.svg";
 
 
@@ -48,9 +48,13 @@ function Home() {
 
         </Container>
       </Container>
+      <div className="flex m-20 p-20">
+        <img className="me-24" width={1000} src={homephoto} alt="" />
+      
       <p className="m-10  mb-20 text-2xl  ">As a frontend developer, nearly a year of focused education and a strong commitment to self-improvement through hands-on projects have been integral to my growth. During this time, active participation in personal and collaborative projects has been instrumental in skill enhancement in web development.
 
-</p>
+        </p>
+        </div>
       
       <Swiper
   className="container swiper-scss"

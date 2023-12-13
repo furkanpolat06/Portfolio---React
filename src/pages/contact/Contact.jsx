@@ -13,7 +13,7 @@ const Contact = () => {
     <div name="contact" className="contacts text-white">
       <div className="contacts-bgImg-container">
         <main className="contact">
-          <h3 className="text-6xl m-8 font-bold ">Contact Details</h3>
+          <h1 className="text-6xl font-bold ">Contact Details</h1>
           <div className="contacts__list">
             <div className="contacts__item">
               <i className="fas fa-envelope"></i> Email

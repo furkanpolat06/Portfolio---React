@@ -5,11 +5,12 @@ h2{
     margin-top: 8rem;
     text-align: center;
     font-size: 3rem;
+    font-weight: 800;
     color: #BE6ADF;          }
 .resumeLink{
     display: flex;
     justify-content: center;
-    text-decoration: underline; 
+    text-decoration: none; 
     margin-bottom: 2rem;
     font-size: 1.5rem;
     
@@ -19,19 +20,23 @@ h2{
     margin: 1rem;
     padding: 0.5rem;
   
-    .text-shadow{
-        color:blue;
-        font-size: 3rem;
+    .text-shadow a{
+        color: #BE6ADF;
+        ;
+        font-size: 2rem;
         text-transform: uppercase;
         text-decoration: underline;
+       
+        font-weight: 600;
         letter-spacing: 0.2rem;
-        animation: flicker 0.8s ease-in-out infinite alternate;
+        animation: dasda 0.8s ease-in-out infinite alternate ;
+        transition: all 0.5s ease-in-out;
         &:hover{
             color: blueviolet;
             cursor: pointer;
         }
     }
-    @keyframes flicker {
+    @keyframes dasda {
         0%{
             opacity: 0.5;
             text-shadow: 2px 2px 10px

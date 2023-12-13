@@ -1,6 +1,16 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
+
+
+h2{
+    margin-bottom:-8rem !important;
+    margin-top: 10rem !important;
+    text-align: center;
+    font-size: 3rem !important;
+    font-weight: 800;
+    color: #BE6ADF !important; }
+
 .project-bgImg-container{
     z-index: -1;
     display: flex;

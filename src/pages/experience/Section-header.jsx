@@ -6,7 +6,7 @@ import resumepng from "../../assets/img/Screenshot_3.png"
 const SectionHeader = () => {
   return (
     <div className="section-header">
-        <h2>BIO</h2>
+        <h2>RESUME</h2>
        <div className="header resumeLink">
        <span className="text-shadow">
         <a

@@ -76,7 +76,7 @@ const About = () => {
     <>
       <div className="about-bgImg-container">
         <div className="about__bio-image">
-          <h2>BIO</h2>
+          <h1>BIO</h1>
           <p>
           Passionate about code composition and the creation of responsive designs, my aptitude for swiftly grasping new concepts and technologies is well-acknowledged. This proficiency enables the development of innovative solutions for intricate problems. Eager to continually acquire knowledge, various technologies, tools, and libraries are consistently explored.
  
